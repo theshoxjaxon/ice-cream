@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+ul,
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.container {
+  width: 1460px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+.nav__list {
+  display: flex;
+}
+.nav__item {
+  margin-left: 23px;
+}
